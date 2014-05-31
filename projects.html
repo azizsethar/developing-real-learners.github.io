@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+<title>Developing Real Learners | Projects</title>
+<style>
+
+article{
+	padding-bottom:5px;
+}
+
+article.odd{
+	background-color:lightgreen;
+}
+article.even{
+	background-color:lightblue;
+}
+article.id3{
+	background-color:lightgreen;
+}
+
+.project_icon{
+	height:100px;
+	width:100px;
+	float:left;
+	margin:5px;
+}
+	
+.hidden{
+	display:none;
+	margin-left:110px;
+}
+	
+.unhidden{
+	display:block;
+
+}	
+	
+	
+</style>
+
+<script type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID+'-more')) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID+'-more').style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID+'-more').style.display = 'none';
+      }
+   }
+}
+</script>
+
+
+
+</head>
+<body>
+
+	<header class="projects">
+		<h1>Projects</h1>
+	</header>
+
+	<article id="id1" class="odd">
+		<header>
+			<img class="project_icon" src="book_icon.png" alt="Project Icon"</img>
+			<h2>Title: (Project Title)
+		</header>
+		<p>Summary: (A summary of the project using 160 characters or less)</p>
+		<a href="#" id="id1-show" class="showLink" onclick="showHide('id1');return false;">(Show details)</a>
+		<div id="id1-more" class="hidden">
+			<p>Country: (Country where project is based)</p>
+			<p>School/Organization Name: (School or organization which runs the project)</p>
+			<p>Start Date: (When the project began)
+			<p>Website: <a href="http://link.url">Project Website</a>
+			<div class="photo">
+			<p>Description: (Longer description of project)</p>
+			<p>Media Gallery:</p>
+				<img src="">			
+			<p>Resources: (A list of DRL resources used in project)</p>
+			<p>Administrator: (The DRL user in charge of the project)</p>
+			<p>Users: (A list of DRL users involved in project)</p>
+			</div>
+			<p><a href="#" id="id1-hide" class="hideLink" onclick="showHide('id1');return false;">(Hide details)</a>
+		</div>
+		
+	</article>
+
+	<article id="id2" class="even">
+		<header>
+			<img class="project_icon" src="book_icon.png" alt="Project Icon"</img>
+			<h2>Title: (Project Title)
+		</header>
+		<p>Summary: (A summary of the project using 160 characters or less)</p>
+		<a href="#" id="id2-show" class="showLink" onclick="showHide('id2');return false;">(Show details)</a>
+		<div id="id2-more" class="hidden">
+			<p>Country: (Country where project is based)</p>
+			<p>School/Organization Name: (School or organization which runs the project)</p>
+			<p>Start Date: (When the project began)
+			<p>Website: <a href="http://link.url">Project Website</a>
+			<div class="photo">
+			<p>Description: (Longer description of project)</p>
+			<p>Media Gallery:</p>
+				<img src="">			
+			<p>Resources: (A list of DRL resources used in project)</p>
+			<p>Administrator: (The DRL user in charge of the project)</p>
+			<p>Users: (A list of DRL users involved in project)</p>
+			</div>
+			<p><a href="#" id="id2-hide" class="hideLink" onclick="showHide('id2');return false;">(Hide details)</a>
+		</div>
+		
+	</article>
+	
+		<article id="id3" class="odd">
+		<header>
+			<img class="project_icon" src="book_icon.png" alt="Project Icon"</img>
+			<h2>Title: (Project Title)
+		</header>
+		<p>Summary: (A summary of the project using 160 characters or less)</p>
+		<a href="#" id="id3-show" class="showLink" onclick="showHide('id3');return false;">(Show details)</a>
+		<div id="id3-more" class="hidden">
+			<p>Country: (Country where project is based)</p>
+			<p>School/Organization Name: (School or organization which runs the project)</p>
+			<p>Start Date: (When the project began)
+			<p>Website: <a href="http://link.url">Project Website</a>
+			<div class="photo">
+			<p>Description: (Longer description of project)</p>
+			<p>Media Gallery:</p>
+				<img src="">			
+			<p>Resources: (A list of DRL resources used in project)</p>
+			<p>Administrator: (The DRL user in charge of the project)</p>
+			<p>Users: (A list of DRL users involved in project)</p>
+			</div>
+			<p><a href="#" id="id3-hide" class="hideLink" onclick="showHide('id3');return false;">(Hide details)</a>
+		</div>
+		
+	</article>
+
+
+</body>
+</html>
