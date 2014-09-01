@@ -465,32 +465,7 @@
 				background-color: #7eaeac;
 			}
 		
-	/* Item */
-	
-		.item
-		{
-			box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.05);
-			margin-bottom: 40px;
-		}
-		
-			.item header
-			{
-				background: #fff;
-				margin: 0;
-				padding: 0.5em 0 0.5em 0;
-				//padding: 1em 0 1em 0;
-				font-size: 0.8em;
-			}
 
-				.item header h3
-				{
-					font-size: 1em;
-					line-height: 1em;
-					word-wrap: break-word;
-				}
-
-			;
-		}
 		
 		
 				
@@ -1192,11 +1167,12 @@
 		
 /*********************************************************************************/
 /* Learner Profile                                                               */
-/*********************************************************************************/		
+/*********************************************************************************/
+		
 		
 		#real_learners img{
 			//height: 200px;
-			height:4em;
+		//	height:4em;
 		}
 		
 
@@ -1205,10 +1181,58 @@
 			background-color: rgba(100,100,100,0.2);
 		}
 		
+		
+			/* Item */
+	
+		.item
+		{
+			box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.05);
+			margin-bottom: 40px;
+			cursor:pointer;
+		}
+		
+			.item header
+			{
+				background: #fff;
+				margin: 0;
+				padding: 0.5em 0 0.5em 0;
+				//padding: 1em 0 1em 0;
+				font-size: 0.8em;
+			}
+
+				.item header h3
+				{
+					font-size: 1.5em;
+					line-height: 1em;
+					word-wrap: break-word;
+				}
+
+		
+		
+		.item:hover h3{
+			text-decoration: underline;
+		}
+		
+		.item p{
+			line-height:1.25em;
+			margin:4px;
+		}
+		
+		.hidden {
+			display:none;
+		}
+	    
+		
+		/*.item:focus .hidden{
+			display:inline;
+		}*/
+		
 		.padded {
 //			padding:10px;
 			padding:20px;
 		}
+		
+
 		
 /*********************************************************************************/
 /* What We Do                                                                 */

@@ -403,3 +403,7 @@
 				jQuery.n33_scrollzer(ids, { pad: 200, lastHack: true });
 
 	});
+	
+	function toggle(obj){
+		$(obj).find("p").toggleClass("hidden");
+	};
